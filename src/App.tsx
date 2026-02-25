@@ -1,10 +1,11 @@
-import { BetterForm } from './components/better-form'
+import { Counter } from './components/counter'
+import { Feed } from './components/feed'
 
 function App() {
 
   return (
-    <div className='flex flex-col items-center justify-center h-screen bg-slate-500'>
-      <BetterForm/>
+    <div className='flex flex-col items-center justify-center bg-slate-500'>
+      <Counter/>
     </div>
   )
 }
